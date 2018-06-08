@@ -1,0 +1,11 @@
+.centered-div{
+    margin: 0 auto
+}
+
+.centered-text{
+    text-align: center
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
