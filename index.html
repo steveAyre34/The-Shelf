@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/user-profile/shelf.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/popup-design.css">
     <title>Profile | The Shelf</title>
 </head>
 
@@ -13,58 +14,47 @@
     </div>
     <div class="centered-div shelf">
         <div class="centered-text rack">
-            <div class="rack-item-6">
+            <div class="rack-item-6 popup-trigger">
                 <img class="rack-img cursor" src="/assets/images/trophy.png">
             </div>
-            <div class="rack-item-6">
+            <div class="rack-item-6 popup-trigger">
                 <img class="rack-img cursor" src="/assets/images/checklist.png">
             </div>
         </div>
         <div class="centered-text rack">
-            <div class="rack-item-4">
+            <div class="rack-item-4 popup-trigger">
                 <img class="rack-img cursor" src="/assets/images/controller.png">
             </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/journal.jpg">
+            <div class="rack-item-4 popup-trigger">
+                <img class="rack-img cursor" src="/assets/images/journal.png">
             </div>
-            <div class="rack-item-4">
+            <div class="rack-item-4 popup-trigger">
                 <img class="rack-img cursor" src="/assets/images/toolbox.png">
             </div>
         </div>
         <div class="centered-text rack">
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/trophy.png">
-            </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/checklist.png">
-            </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/checklist.png">
-            </div>
-        </div>
-        <div class="centered-text rack">
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/trophy.png">
-            </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/checklist.png">
-            </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/checklist.png">
-            </div>
-        </div>
-        <div class="centered-text rack">
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/trophy.png">
-            </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/checklist.png">
-            </div>
-            <div class="rack-item-4">
-                <img class="rack-img cursor" src="/assets/images/checklist.png">
+            <div class="rack-item-4 popup-trigger">
+                <img class="rack-img cursor" src="/assets/images/teddy.png">
             </div>
         </div>
     </div>
+
+    <div id="popup-overlay"></div>
+    <div class="popup">
+        <div>
+            <input style="width: 50%">
+        </div>
+        <div>
+            <input>
+        </div>
+        <div>
+            <input>
+        </div>
+    </div>
+
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/popup.js"></script>
 
 </html>
