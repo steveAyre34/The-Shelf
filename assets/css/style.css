@@ -9,3 +9,43 @@
 .cursor:hover{
     cursor: pointer;
 }
+
+/* Style the search field */
+* {
+    box-sizing: border-box;
+}
+  
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 300px;
+    background: #f1f1f1;
+  }
+
+button {
+    width: 40px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0b7dda;
+  }
+
+.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+  
