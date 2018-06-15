@@ -3,48 +3,49 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/user-profile/shelf.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/popup-design.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/searchbox-design.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/games/games-home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Games | The Shelf</title>
 </head>
 
-<body style="background: #d6d6d6">
+<body class="body-background">
     <div class="centered-text">
-        <div class="centered-text example">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit">
+        <div class="centered-text search-params">
+            <input class="search-input" type="text" placeholder="Search..">
+            <button class="search-btn do-search" type="submit">
                 <i class="fa fa-search"></i>
             </button>
-            <button type="submit" style="background:#007a20">
+            <button class="search-btn s-tools-btn" type="submit">
                 <i class="fa fa-wrench"></i>
             </button>
         </div>
-        <div class="centered-text" style="margin-top: 15px">
-            <div style="display: inline-block; padding: 5px">
+        <div class="centered-text radio-section">
+            <div class="radio-div">
                 <label>system</label>
-                <input type="radio" name="search-type" checked>
+                <input class="search-radio" type="radio" name="search-type" checked>
             </div>
-            <div style="display: inline-block; padding: 5px">
+            <div class="radio-div">
                 <label>genre</label>
-                <input type="radio" name="search-type">
+                <input class="search-radio" type="radio" name="search-type">
             </div>
-            <div style="display: inline-block; padding: 5px">
+            <div class="radio-div">
                 <label>category</label>
-                <input type="radio" name="search-type">
+                <input class="search-radio" type="radio" name="search-type">
             </div>
         </div>
     </div>
-    <div class="centered-div" style="display:table;border-collapse:separate;border-spacing:30px; margin-top: 30px; background: #efefef;">
-        <div style="display: table-row;">
-            <div style="display: table-cell; background: #d6d6d6; border: 10px solid #a8a4a4;">
+    <div class="centered-div game-table">
+        <div class="game-row">
+            <div class="game-cell">
                 <div>
-                    <div class="centered-text" style="width: 50%; display: inline-block; background: #d66611; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn folder-btn">
                         <span>
                             <i class="fa fa-folder"></i>
                         </span>
                     </div>
-                    <div class="centered-text" style="width: 49%; display: inline-block; background: #4b0082; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn edit-btn">
                         <span>
                             <i class="fa fa-pencil"></i>
                         </span>
@@ -52,27 +53,27 @@
                 </div>
                 <div class="centered-text">
                     <div>
-                        <img src="/assets/images/samples/starter-game-1.jpg" style="width: 450px; height: 310px;">
+                        <img class="game-img" src="/assets/images/samples/starter-game-1.jpg">
                     </div>
-                    <div style="background: #303649; color: white; margin: 0px; padding: 2px; margin-top: -5px">
-                        <h3 style="font-weight: 500">Jak and Daxter</h3>
+                    <div class="game-title-div">
+                        <h3 class="game-title">Jak and Daxter</h3>
                     </div>
-                    <div style="background: #0057db; padding: 2px; color: white">
-                        <p>PS4</p>
+                    <div class="playstation-background game-system-div">
+                        <p class="game-system">PS4</p>
                     </div>
-                    <div>
-                        <p>Action/Adventure</p>
+                    <div class="game-genre-div">
+                        <p class="game-genre">Action/Adventure</p>
                     </div>
                 </div>
             </div>
-            <div style="display: table-cell; background: #d6d6d6; border: 10px solid #a8a4a4;">
+            <div class="game-cell">
                 <div>
-                    <div class="centered-text" style="width: 50%; display: inline-block; background: #d66611; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn folder-btn">
                         <span>
                             <i class="fa fa-folder"></i>
                         </span>
                     </div>
-                    <div class="centered-text" style="width: 49%; display: inline-block; background: #4b0082; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn edit-btn">
                         <span>
                             <i class="fa fa-pencil"></i>
                         </span>
@@ -80,29 +81,29 @@
                 </div>
                 <div class="centered-text">
                     <div>
-                        <img src="/assets/images/samples/starter-game-1.jpg" style="width: 450px; height: 310px;">
+                        <img class="game-img" src="/assets/images/samples/starter-game-1.jpg">
                     </div>
-                    <div style="background: #303649; color: white; margin: 0px; padding: 2px; margin-top: -5px">
-                        <h3 style="font-weight: 500">Jak and Daxter</h3>
+                    <div class="game-title-div">
+                        <h3 class="game-title">Jak and Daxter</h3>
                     </div>
-                    <div style="background: #00b73d; padding: 2px; color: white">
-                        <p>Xbox</p>
+                    <div class="xbox-background game-system-div">
+                        <p class="game-system">Xbox</p>
                     </div>
-                    <div>
-                        <p>Action/Adventure</p>
+                    <div class="game-genre-div">
+                        <p class="game-genre">Action/Adventure</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="display: table-row;">
-            <div style="display: table-cell; background: #d6d6d6; border: 10px solid #a8a4a4;">
+        <div class="game-row">
+            <div class="game-cell">
                 <div>
-                    <div class="centered-text" style="width: 50%; display: inline-block; background: #d66611; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn folder-btn">
                         <span>
                             <i class="fa fa-folder"></i>
                         </span>
                     </div>
-                    <div class="centered-text" style="width: 49%; display: inline-block; background: #4b0082; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn edit-btn">
                         <span>
                             <i class="fa fa-pencil"></i>
                         </span>
@@ -110,27 +111,27 @@
                 </div>
                 <div class="centered-text">
                     <div>
-                        <img src="/assets/images/samples/starter-game-1.jpg" style="width: 450px; height: 310px;">
+                        <img class="game-img" src="/assets/images/samples/starter-game-1.jpg">
                     </div>
-                    <div style="background: #303649; color: white; margin: 0px; padding: 2px; margin-top: -5px">
-                        <h3 style="font-weight: 500">Jak and Daxter</h3>
+                    <div class="game-title-div">
+                        <h3 class="game-title">Jak and Daxter</h3>
                     </div>
-                    <div style="background: #dd0202; padding: 2px; color: white">
-                        <p>Switch</p>
+                    <div class="switch-background game-system-div">
+                        <p class="game-system">Switch</p>
                     </div>
-                    <div>
-                        <p>Action/Adventure</p>
+                    <div class="game-genre-div">
+                        <p class="game-genre">Action/Adventure</p>
                     </div>
                 </div>
             </div>
-            <div style="display: table-cell; background: #d6d6d6; border: 10px solid #a8a4a4;">
+            <div class="game-cell">
                 <div>
-                    <div class="centered-text" style="width: 50%; display: inline-block; background: #d66611; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn folder-btn">
                         <span>
                             <i class="fa fa-folder"></i>
                         </span>
                     </div>
-                    <div class="centered-text" style="width: 49%; display: inline-block; background: #4b0082; color: white; padding: 5px">
+                    <div class="centered-text cursor game-icon-btn edit-btn">
                         <span>
                             <i class="fa fa-pencil"></i>
                         </span>
@@ -138,16 +139,16 @@
                 </div>
                 <div class="centered-text">
                     <div>
-                        <img src="/assets/images/samples/starter-game-1.jpg" style="width: 450px; height: 310px;">
+                        <img class="game-img" src="/assets/images/samples/starter-game-1.jpg">
                     </div>
-                    <div style="background: #303649; color: white; margin: 0px; padding: 2px; margin-top: -5px">
-                        <h3 style="font-weight: 500">Jak and Daxter</h3>
+                    <div class="game-title-div">
+                        <h3 class="game-title">Jak and Daxter</h3>
                     </div>
-                    <div style="background: #7a7a7a; padding: 2px; color: white">
-                        <p>PC</p>
+                    <div class="pc-background game-system-div">
+                        <p class="game-system">Switch</p>
                     </div>
-                    <div>
-                        <p>Action/Adventure</p>
+                    <div class="game-genre-div">
+                        <p class="game-genre">Action/Adventure</p>
                     </div>
                 </div>
             </div>
@@ -170,6 +171,7 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/searchbox.js"></script>
 <script src="/assets/js/popup.js"></script>
 
 </html>

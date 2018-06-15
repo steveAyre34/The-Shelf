@@ -1,0 +1,79 @@
+.body-background {
+    background: #d6d6d6;
+}
+
+.game-table{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 30px; 
+    margin-top: 30px; 
+    background: #efefef;
+}
+
+.game-row {
+    display: table-row;
+}
+
+.game-cell {
+    display: table-cell; 
+    background: #d6d6d6; 
+    border: 10px solid #a8a4a4;
+}
+
+.game-icon-btn {
+    display: inline-block;
+    color: white; 
+    padding: 5px;
+    transition: 500ms background-color;
+}
+
+.folder-btn {
+    width: 50%; 
+    background: #d66611;
+}
+
+.folder-btn:hover {
+    background: #b7570e;
+}
+
+.edit-btn {
+    width: 49%; 
+    background: #4b0082;
+}
+
+.edit-btn:hover {
+    background: #35005b;
+}
+
+.game-img {
+    width: 450px; 
+    height: 310px;
+}
+
+.game-title-div {
+    background: #303649; 
+    color: white; 
+    margin: 0px; 
+    padding: 2px; 
+    margin-top: -5px;
+}
+
+h3.game-title {
+    font-weight: 500;
+}
+
+.game-system-div {
+    padding: 2px;
+}
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 995px) {
+    .game-row {
+        display: block;
+    }
+    
+    .game-cell {
+        display: block;
+    }
+}

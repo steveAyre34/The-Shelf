@@ -1,3 +1,4 @@
+/* Main CSS */
 .centered-div{
     margin: 0 auto
 }
@@ -10,42 +11,41 @@
     cursor: pointer;
 }
 
-/* Style the search field */
-* {
-    box-sizing: border-box;
-}
-  
-input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    width: 300px;
-    background: #f1f1f1;
-  }
+/* Gaming colors/designs */
 
-button {
-    width: 40px;
-    padding: 10px;
-    background: #2196F3;
+.playstation-background {
+    background: #0057db;
     color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-  }
-  button:hover {
-    background: #0b7dda;
-  }
-
-.example::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
-input[type="radio"] {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
-    transform: scale(1.5);
+.playstation-color {
+    color: #0057db;
+}
+
+.xbox-background {
+    background: #00b73d;
+    color: white;
+}
+
+.xbox-color {
+    color: #00b73d
+}
+
+.switch-background {
+    background: #dd0202;
+    color: white;
+}
+
+.switch-color {
+    color: #dd0202;
+}
+
+.pc-background {
+    background: #7a7a7a;
+    color: white;
+}
+
+.pc-color {
+    color: #7a7a7a;
 }
   
