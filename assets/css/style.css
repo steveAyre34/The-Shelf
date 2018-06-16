@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+.body-background {
+    background: #d6d6d6;
+}
+
 /* Gaming colors/designs */
 
 .playstation-background {

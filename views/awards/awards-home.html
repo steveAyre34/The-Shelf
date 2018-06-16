@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/popup-design.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/searchbox-design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Games | The Shelf</title>
+</head>
+
+<body class="body-background">
+    <div class="centered-text">
+        <div class="centered-text search-params">
+            <input class="search-input" type="text" placeholder="Search..">
+            <button class="search-btn do-search" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+            <button class="search-btn s-tools-btn" type="submit">
+                <i class="fa fa-wrench"></i>
+            </button>
+        </div>
+        <div class="centered-text radio-section">
+            <div class="radio-div">
+                <label>game</label>
+                <input class="search-radio" type="radio" name="search-type" checked>
+            </div>
+            <div class="radio-div">
+                <label>system</label>
+                <input class="search-radio" type="radio" name="search-type">
+            </div>
+            <div class="radio-div">
+                <label>filters</label>
+                <input class="search-radio" type="radio" name="search-type">
+            </div>
+        </div>
+    </div>
+    <div class="centered-div" style=" margin-top: 40px">
+        <div>
+            <table style="font-family: arial, sans-serif; border-collapse: collapse; width: 80%; margin: 0 auto">
+                <tr>
+                    <th style="border: 1px solid #dddddd; text-align: left; padding: 8px; width: 50px">Info</th>
+                    <th style="border: 1px solid #dddddd; text-align: left; padding: 8px; width: 450px">Title</th>
+                    <th style="border: 1px solid #dddddd; text-align: left; padding: 8px; width: 50px">Action</th>
+                </tr>
+                <tr class="playstation-background" style="opacity: 0.8">
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">PS4</td>
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Jak and Daxter</td>
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
+                        <select>
+                            <option>
+                                Test
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="xbox-background">
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Xbox</td>
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Jak and Daxter</td>
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
+                        <select>
+                            <option>
+                                Test
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="switch-background" style="opacity: 0.8">
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Switch</td>
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Jak and Daxter</td>
+                    <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
+                        <select>
+                            <option>
+                                Test
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="popup-overlay"></div>
+    <div class="popup">
+        <div>
+            <input style="width: 50%">
+        </div>
+        <div>
+            <input>
+        </div>
+        <div>
+            <input>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/searchbox.js"></script>
+<script src="/assets/js/popup.js"></script>
+
+</html>
