@@ -1,0 +1,20 @@
+.awards-table-div {
+    margin-top: 40px;
+}
+
+.awards-table {
+    font-family: arial, sans-serif; 
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.awards-table th{
+    border: 1px solid #dddddd; 
+    text-align: left; 
+    padding: 8px;
+}
+
+.award-row {
+    opacity: 0.8;
+}
